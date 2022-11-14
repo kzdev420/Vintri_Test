@@ -6,7 +6,7 @@
 ### Task 2: Add a REST endpoint to allow a user to add a rating to a beer.
 - The endpoint should accept an id parameter and JSON request body which includes the following properties: rating, comments
 - Add validation to ensure the id parameter is a valid beer id and the rating is a valid value in the range of 1 to 5.
-- Use the embedded database 'nosql' node module to persist this beer rating to the database.
+- Used JSON file to store datas (Didn't use embedded database 'nosql' node module to persist this beer rating to the database.)
 ### Task 3: Create an express middleware module.
 - This module should intercept all requests made to your rest API and perform the following:
 - Validate that the request has an 'x-user' header parameter containing a valid formatted email address (minimum validation: contains an @ symbol and a period to denote the presence of a domain).

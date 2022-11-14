@@ -19,6 +19,17 @@ main {
   margin: 0 auto;
 }
 
+input {
+  font-size: 16px;
+  padding: 3px 10px;
+  margin-right: 15px;
+}
+
+button {
+  font-size: 16px;
+  padding: 3px 10px;
+}
+
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);

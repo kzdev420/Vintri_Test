@@ -11,7 +11,7 @@ export default defineComponent({
 
     const id = ref(route.params.id);
     const beer = ref({});
-    const rating = ref(1);
+    const rating = ref();
     const comments = ref("");
 
     async function sendFeedback() {
@@ -67,8 +67,8 @@ export default defineComponent({
     </table>
 
     <form @submit.prevent="sendFeedback">
-      <input type="number" v-model="rating" />
-      <input type="text" v-model="comments" />
+      <input type="number" placeholder="Add Rate in 1~5" v-model="rating" />
+      <input type="text" placeholder="Type the comments" v-model="comments" />
       <button>Send</button>
     </form>
   </div>

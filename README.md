@@ -1,3 +1,11 @@
+## Run the Projects
+### Node
+- run the development mode: `npm start`
+- run the test mode: `npm test`
+### Vue
+- run the development mode: `npm run dev`
+
+
 ### Task 1: Add a REST endpoint to retrieve a list of beers.
 - This endpoint should accept one parameter in the query string of the request.
 - The purpose of this parameter is to denote the name of the beer to search for.
